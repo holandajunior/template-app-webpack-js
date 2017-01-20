@@ -1,0 +1,33 @@
+{
+  "name": "template-app-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "dev-server": "webpack-dev-server --hot --progress --colors --watch --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/holandajunior/template-app-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/holandajunior/template-app-js/issues"
+  },
+  "homepage": "https://gitlab.com/holandajunior/template-app-js#README"
+}
